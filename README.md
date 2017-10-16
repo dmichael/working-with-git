@@ -30,6 +30,7 @@ git pull origin master
 * Pull the latest from remote master and merge it in your current branch. 
 * Add --rebase to rebase instead of merge.
 * What this is doing under the covers is a `git fetch origin master && git merge origin/master`.
+* **This is probably the command you are looking for.**
 
 ```
 git pull origin/master
